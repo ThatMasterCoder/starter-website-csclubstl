@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+    color: darkblue;
+    text-align: center;
+}
+
+img {
+    width: 1000px;
+    height: 700px;
+}
+
+button {
+    background-color: lightgray;
+    color: darkred;
+    padding: 10px 20px;
+    border: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    height: 250px;
+}
