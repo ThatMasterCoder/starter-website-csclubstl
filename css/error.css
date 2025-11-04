@@ -1,0 +1,25 @@
+body {
+    background-color: pink;
+    color: darkblue;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: lightgray;
+    color: blue;
+    padding: 15px 32px;
+    border: auto;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    height: 75px;
+}
+
+img {
+    width: 500px;
+    height: 350px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}

@@ -5,6 +5,18 @@
     <link rel="stylesheet" href="css/styles.css">
     <script>
         function switchcolour(){
+            const randomNumber = Math.floor(Math.random() * 100);
+            if (randomNumber < 10){
+                document.body.style.backgroundColor = "pink";
+                console.log("changed to pink");
+                return;
+            } else if (randomNumber > 93){
+                console.log("going to 404 page")
+                window.location.href = "/404.html";
+                return;
+            }
+
+            // cycle through the colours if none of the above
             if (document.body.style.backgroundColor == "lightblue"){
                 document.body.style.backgroundColor = "lightgreen";
                 console.log("changed lightblue to lightgreen");
@@ -22,11 +34,11 @@
     <div>
         <h1>stl website</h1>
         <button onclick="switchcolour()">click me</button>
+        <a href="/skyblock.html"></a><button onclick="window.location.href='/skyblock.html'">Go to Skyblock</button>
     </div>
-    
+    <br>
     <div>
-
-        <img src="img/ragebait.png" alt="ragebait">
+        <img src="img/ragebait.png" alt="ragebait"> <br>
         <p1>heheheheh</p1>
     </div>
     
