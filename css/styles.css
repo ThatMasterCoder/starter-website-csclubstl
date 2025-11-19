@@ -10,6 +10,19 @@ img {
     height: 400px;
 }
 
+.image-button {
+    width: 300px;
+    height: 300px;
+    border: red;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.image-button:hover {
+    transform: scale(1.05);
+}
+
 button {
     background-color: lightgray;
     color: darkred;
@@ -17,7 +30,48 @@ button {
     border: auto;
     border-radius: 5px;
     cursor: pointer;
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
 }
 
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 400px;
+}
+
+.exit-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: lightgray;
+    color: darkblue;
+    padding: 10px 20px;
+    border: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.text-color {
+    color: darkblue;
+    text-align : center;
+    font-size: 25px;
+}
+
+.roll-history {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    text-align: left;
+    color: darkblue;
+    font-size: 18px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
